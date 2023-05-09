@@ -5,7 +5,10 @@ const swaggerUI = require('swagger-ui-express');
 const swaggerJsDoc = require('swagger-jsdoc');
 const mongoose = require('mongoose');
 var bodyParser = require('body-parser');
-     
+     /*
+     Open
+     http://localhost:4000/api-docs/
+     */
 const options = {
   definition:{
     openapi:"3.0.0",
